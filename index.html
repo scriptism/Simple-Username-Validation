@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Name Validation</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="regex-card">
+      <h3>👤 Username Validation</h3>
+      <p>3-16 chars: letters, numbers, underscores, hyphens only</p>
+      <div class="input-group">
+        <label for="username">Enter Username:</label>
+        <input type="text" id="username" placeholder="user_name-123" />
+        <div class="regex-pattern">Regex Pattern: /^[a-zA-Z0-9_-]{3,16}$/</div>
+        <div class="example">Example: you_2027</div>
+        <div class="validation-message" id="username-message"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
