@@ -4,7 +4,6 @@ A lightweight, modern UI component that validates usernames in real-time, live R
 
     Real-time validation as you type
     3–16 characters, letters, numbers, underscore & hyphen only
-    Clean glass-morphic design (backdrop blur + subtle shadows)
     Responsive – works on mobile & desktop
     Vanilla JS & CSS – no external libraries
 
