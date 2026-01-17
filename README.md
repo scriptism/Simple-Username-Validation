@@ -1,4 +1,4 @@
-🔐 RegEx Username Validation
+Regex Username Validation
 A lightweight, modern UI component that validates usernames in real-time, live RegEx feedback, and zero dependencies.
 ✨ Features
 
